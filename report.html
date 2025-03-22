@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHEempowers</title>
+    <link rel="shortcut icon" type="icon" href="logo.png">
+    <link rel="stylesheet" href="report.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="image-box">
+             <img src="logo.png" alt="">
+            </div>
+        <form action="" id="contactForm">
+            <div class="alert">Your message sent</div>
+            <div class="topic">Report your Problem</div>
+            <div class="inputBox">
+                <input type="text" id="name" />
+                <label>name</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid"/>
+                <label>email</label>
+            </div>
+
+            <div class="inputBox">
+                <textarea id="msgContent" cols="30" rows="10"></textarea>
+                <label>msg</label><br>
+            </div>
+
+            <div class="inputBox">
+                <br><br><br><button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="report.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-image: url(assets/SHEbg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container {
+    width: 80vmin;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 120px;
+    background-color: #E1AFD1;
+    box-shadow: 0 20px 40px rgba(142, 19, 124, 0.584);
+  }
+  .tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  h3 {
+    background-color: #E1AFD1;
+    text-align: center;
+    padding: 15px 0;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .tab-content {
+    background-color: #49243E;
+    padding: 50px 40px;
+  }
+  .tab-content span {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #FFE6E6;
+    font-weight: 500;
+  }
+  .tab-content p {
+    text-align: justify;
+    line-height: 1.9;
+    letter-spacing: 0.4px;
+    color: #E1AFD1;
+  }
+  .tab-content div {
+    display: none;
+  }
+  .tab-content .active {
+    display: block;
+  }
+  .tabs .active {
+    background-color: #49243E;
+    color: #E1AFD1;
+  }
